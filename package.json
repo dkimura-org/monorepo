@@ -1,7 +1,11 @@
 {
   "name": "monorepo",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkimura-org/monorepo.git"
+  },
   "scripts": {
     "build": "turbo build",
     "format": "turbo format",

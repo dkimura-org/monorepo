@@ -1,7 +1,6 @@
 {
-  "name": "@dkimura-san/styled-system",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@dkimura-org/styled-system",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     "./css": {
