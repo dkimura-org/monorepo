@@ -1,0 +1,26 @@
+{
+  "name": "@dkimura-san/arithmetics",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify",
+    "format": "biome format . --write",
+    "lint": "biome lint ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3",
+    "@tsconfig/vite-react": "3.0.2",
+    "tsup": "8.0.2",
+    "typescript": "5.4.3"
+  }
+}
